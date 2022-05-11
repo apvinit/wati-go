@@ -179,7 +179,7 @@ func (c *Client) SendTemplateMessage(whatsappNumber, templateName, broadcastName
 
 	data := struct {
 		TemplateName  string  `json:"template_name"`
-		BroadcastName string  `json:"brodcast_name"`
+		BroadcastName string  `json:"broadcast_name"`
 		Parameters    []Param `json:"parameters"`
 	}{
 		TemplateName:  templateName,
